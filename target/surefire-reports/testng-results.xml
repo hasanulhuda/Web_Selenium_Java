@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1225" started-at="2022-01-15T15:44:54 ICT" finished-at="2022-01-15T15:44:55 ICT">
+    <groups>
+    </groups>
+    <test name="Search Test Skenario= Success" duration-ms="1225" started-at="2022-01-15T15:44:54 ICT" finished-at="2022-01-15T15:44:55 ICT">
+      <class name="testClass.SearchTest">
+        <test-method status="PASS" signature="test()[pri:0, instance:testClass.SearchTest@271053e1]" name="test" is-config="true" duration-ms="26804" started-at="2022-01-15T15:44:27 ICT" finished-at="2022-01-15T15:44:54 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="page_Validate()[pri:1, instance:testClass.SearchTest@271053e1]" name="page_Validate" duration-ms="435" started-at="2022-01-15T15:44:54 ICT" description="TS01-EP01 - Validate page already opened" finished-at="2022-01-15T15:44:55 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- page_Validate -->
+        <test-method status="PASS" signature="searchCourse_Success()[pri:2, instance:testClass.SearchTest@271053e1]" name="searchCourse_Success" duration-ms="760" started-at="2022-01-15T15:44:55 ICT" description="TS01-EP02 - Search Test Scenario = Success" finished-at="2022-01-15T15:44:55 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCourse_Success -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:testClass.SearchTest@271053e1]" name="closeApp" is-config="true" duration-ms="704" started-at="2022-01-15T15:44:55 ICT" finished-at="2022-01-15T15:44:56 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testClass.SearchTest -->
+    </test> <!-- Search Test Skenario= Success -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (0)" duration-ms="4994" started-at="2022-01-15T15:45:30 ICT" finished-at="2022-01-15T15:45:35 ICT">
+    <groups>
+    </groups>
+    <test name="Search Test Skenario = Failed" duration-ms="4994" started-at="2022-01-15T15:45:30 ICT" finished-at="2022-01-15T15:45:35 ICT">
+      <class name="testClass.SearchTest">
+        <test-method status="PASS" signature="test()[pri:0, instance:testClass.SearchTest@64bf3bbf]" name="test" is-config="true" duration-ms="33967" started-at="2022-01-15T15:44:56 ICT" finished-at="2022-01-15T15:45:30 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="page_Validate()[pri:1, instance:testClass.SearchTest@64bf3bbf]" name="page_Validate" duration-ms="266" started-at="2022-01-15T15:45:30 ICT" description="TS01-EP01 - Validate page already opened" finished-at="2022-01-15T15:45:30 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- page_Validate -->
+        <test-method status="PASS" signature="searchCourse_Failed()[pri:2, instance:testClass.SearchTest@64bf3bbf]" name="searchCourse_Failed" duration-ms="4728" started-at="2022-01-15T15:45:30 ICT" description="TS01-EP02 - Search Test Scenario = Failed" finished-at="2022-01-15T15:45:35 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCourse_Failed -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:testClass.SearchTest@64bf3bbf]" name="closeApp" is-config="true" duration-ms="725" started-at="2022-01-15T15:45:35 ICT" finished-at="2022-01-15T15:45:36 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testClass.SearchTest -->
+    </test> <!-- Search Test Skenario = Failed -->
+  </suite> <!-- Suite (0) -->
+</testng-results>
