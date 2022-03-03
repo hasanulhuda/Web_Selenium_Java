@@ -1,3 +1,4 @@
 base\BasePage.class
+utils\CapabilityFactory.class
 utils\TestUtils.class
 utils\Utility.class
